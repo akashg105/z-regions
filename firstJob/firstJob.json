@@ -21,7 +21,7 @@
     "--job-language" : "python",
     "--TempDir" : "s3://aws-glue-assets-239737454084-eu-south-2/temporary/"
   },
-  "maxRetries" : 0,
+  "maxRetries" : 10,
   "allocatedCapacity" : 10,
   "timeout" : 2880,
   "maxCapacity" : 10.0,
